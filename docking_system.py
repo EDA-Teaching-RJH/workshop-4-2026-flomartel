@@ -4,7 +4,7 @@ def main():
  # PART 1: String Manipulation
  ship_name = input("Enter Ship Name: ")
  new_name = ship_name.replace(" ", "_").upper()
- print(f"new_name:{formatted_name}")
+ print(f"new_name:{new_name}")
 
 
  # TODO: Convert ship_name to uppercase and replace spaces with underscores
@@ -29,5 +29,8 @@ def assign_bay(n):
 
  
 main()
+
+
+
 
 
