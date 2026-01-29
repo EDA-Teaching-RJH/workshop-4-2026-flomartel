@@ -5,12 +5,12 @@ def main():
  ship_name = input("Enter Ship Name: ")
  new_name = ship_name.replace(" ", "_").upper()
  print(f"new_name:{new_name}")
-
-
- # TODO: Convert ship_name to uppercase and replace spaces with underscores
-
+ # DONE: Convert ship_name to uppercase and replace spaces with underscores
+ 
 cargo_input = input("Enter Cargo Value (e.g., ¢100.00): ")
- # TODO: Remove the first character and convert to float
+removed = float(cargo_input[1:])
+print(f"Cargo Value:{removed}")
+ # DONE: Remove the first character and convert to float
 
  # PART 2: Bay Assignment
 reg_id = int(input("Enter Ship ID (Integer): "))
