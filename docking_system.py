@@ -3,6 +3,13 @@ def main():
 
  # PART 1: String Manipulation
  ship_name = input("Enter Ship Name: ")
+ myFunction(ship_name)
+
+ def myFunction(text):
+  result = text.replace(" ", "_")
+  result = text.upper()
+  print(result)
+
  # TODO: Convert ship_name to uppercase and replace spaces with underscores
 
  cargo_input = input("Enter Cargo Value (e.g., ¢100.00): ")
