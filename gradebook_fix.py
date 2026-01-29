@@ -8,10 +8,10 @@ def main():
 
     # Loop to get student details
     for i in range(student_count):
-        print("Student " + i + 1)
+        print("Student " + str(i + 1))
         
         # Clean up the name input
-        name_input = input("Name: ").strip.title()
+        name_input = input("Name: ").strip().title()
         names.append(name_input)
 
         # Keep asking for score until valid (0-100)
@@ -40,6 +40,9 @@ def main():
         
         print(f"{i + 1}: {names[i]} - {scores[i]} ({result})")
 
-# Call the main function
 main()
+
+    
+
+# Call the main function
 
